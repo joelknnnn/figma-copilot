@@ -47,18 +47,14 @@ const Test: React.FC<TestProps> = () => {
         backgroundColor: theme.palette.background.default,
         minHeight: '100vh',
         width: '100%',
-        display: 'flex',
-        justifyContent: 'center',
       }}
     >
       <Container
-        maxWidth={false}
+        maxWidth="lg"
         sx={{
-          width: '100%',
           pt: 0,
           pb: theme.spacing(3),
           px: theme.spacing(3),
-          mx: 'auto',
         }}
       >
         <PageHeader
