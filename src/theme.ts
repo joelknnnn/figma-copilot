@@ -88,6 +88,13 @@ const theme = createTheme({
         root: {
           borderRadius: '100px',
           textTransform: 'none',
+          boxShadow: 'none',
+          '&:hover': {
+            boxShadow: 'none',
+          },
+          '&:active': {
+            boxShadow: 'none',
+          },
         },
         containedPrimary: {
           backgroundColor: '#0609FD',
